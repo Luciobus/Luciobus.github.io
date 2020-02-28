@@ -1,0 +1,122 @@
+.main-menu,
+.materials {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	background-color: #f5f5f5;
+}
+
+.main-menu > li {
+	display: inline-block;
+	margin-right: -2px;
+}
+
+.main-menu a {
+	display: block;
+	padding: 10px 15px;
+	border-left: 2px solid #e5e5e5;
+	border-right: 2px solid #e5e5e5;
+	background: #f5f5f5;
+	color: #0088cc;
+	text-decoration: none;
+	margin-right: -4px;
+}
+
+.main-menu a:hover {
+	color: #ffffff;
+	background: #0088cc;
+}
+
+.theory {
+	width: 180px;
+	margin: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 0;
+	list-style-type: none;
+}
+
+.theory a {
+	display: block;
+	padding: 8px 14px;
+	margin-bottom: -1px;
+	color: #0088cc;
+	border: 1px solid #e5e5e5;
+	text-decoration: none;
+}
+
+.theory a:hover {
+	background-color: #f5f5f5;
+}
+
+.theory .active a {
+	color: white;
+	background-color: #0088cc; 
+}
+
+.materials {
+	margin-top: 20px;
+}
+
+.materials > li {
+	border: 0.5px solid black;
+}
+
+.materials div {
+	background-color: #ffffff;
+}
+
+span {
+	font-size: 20px;
+	padding: 5px;
+}
+
+.tag-button {
+	cursor: pointer;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+.enabled {
+	display: block;
+}
+
+.disabled {
+	display: none;
+}
+
+/*Создаём стили для тегов*/
+
+.materials .tags table {
+	width: 96%;
+	padding: 20px;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.materials caption {
+	color: white;
+	background: #e0822f;
+}
+
+.materials tr {
+	font-size: 20px;
+	background-color: #e8e8e8;
+}
+
+.materials td {
+	padding: 0 10px;
+}
+
+.materials kbd {
+	color: #119bd6;
+}
+
+.materials table tr:nth-child(2n) {
+	background-color: #d8d8d8;
+}

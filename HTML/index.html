@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>HTML Theory</title>
+	<link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+
+<body>
+	<ul class="main-menu">
+		<li><a href="/">Main page</a></li>
+		<li><a href="https://vk.com/luci0us" target="_blank">Our team</a></li>
+		<li><a href="#">News</a></li>
+		<li><a href="#">About us</a></li>
+	</ul>
+	<ul class="theory">
+		<li class="active"><a href="/HTML">HTML Theory</a></li>
+		<li><a href="/CSS">CSS Theory</a></li>
+		<li><a href="/JavaScript">JavaScript Theory</a></li>
+	</ul>
+	<main>
+		HTML расшифровывается как «Hypertext Markup Language», то есть «язык гипертекстовой разметки» <br><br>
+
+		Язык HTML отвечает за структуру и содержание страницы. HTML состоит из тегов, а тег состоит из имени,
+		заключённого между знаками «меньше» и «больше».
+		<ul class="materials">
+			<h1>Материалы</h1>
+			<li>
+				<span class="tag-button">+ Tags part 1</span>
+				<div class="tags disabled">
+					<table>
+						<caption>Метаданные документа</caption>
+						<tbody>
+							<tr>
+								<td><kbd>&lt;html&gt;&lt;/html&gt;</kbd></td>
+								<td>корневой элемент html-документа</td>
+								<td><kbd>block</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;head&gt;&lt;/head&gt;</kbd></td>
+								<td>контейнер для метаданных html-документа</td>
+								<td><kbd>none</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;title&gt;&lt;/title&gt;</kbd></td>
+								<td>заголовок / имя html-документа</td>
+								<td><kbd>none</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;base&gt;</kbd></td>
+								<td>базовый url-адрес, относительно которого вычисляются относительные адреса</td>
+								<td><kbd>none</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;link&gt;</kbd></td>
+								<td>подключает внешние таблицы стилей</td>
+								<td><kbd>none</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;meta&gt;</kbd></td>
+								<td>мета-данные веб-страницы</td>
+								<td><kbd>none</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;style&gt;&lt;/style&gt;</kbd></td>
+								<td>подключает таблицы стилей</td>
+								<td><kbd>none</kbd></td>
+							</tr>
+						</tbody>
+					</table>
+					<table>
+						<caption>Секционные элементы</caption>
+						<tbody>
+							<tr>
+								<td><kbd>&lt;body&gt;&lt;/body&gt;</kbd></td>
+								<td>тело html-документа</td>
+								<td><kbd>block</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;article&gt;&lt;/article&gt;</kbd></td>
+								<td>раздел контента, образующий независимую часть документа или сайта</td>
+								<td><kbd>block</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;section&gt;&lt;/section&gt;</kbd></td>
+								<td>логическая область (раздел) страницы, обычно с заголовком</td>
+								<td><kbd>block</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;nav&gt;&lt;/nav&gt;</kbd></td>
+								<td>раздел документа, содержащий навигационные ссылки по сайту</td>
+								<td><kbd>block</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;aside&gt;&lt;/aside&gt;</kbd></td>
+								<td>контент страницы, имеющий косвенное отношение к основному контенту</td>
+								<td><kbd>block</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;h1&gt;&lt;/h1&gt; - &lt;h6&gt;&lt;/h6&gt;</kbd></td>
+								<td>заголовки шести уровней</td>
+								<td><kbd>block</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;header&gt;&lt;/header&gt;</kbd></td>
+								<td>секция для вводной информации сайта или группы навигационных ссылок</td>
+								<td><kbd>block</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;footer&gt;&lt;/footer&gt;</kbd></td>
+								<td>секция для нижнего колонтитула документа или раздела</td>
+								<td><kbd>block</kbd></td>
+							</tr>
+						</tbody>
+					</table>
+					<table>
+						<caption>Группировка содержимого</caption>
+						<tbody>
+							<tr>
+								<td><kbd>&lt;p&gt;&lt;/p&gt;</kbd></td>
+								<td>параграфы в тексте</td>
+								<td><kbd>block</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;address&gt;&lt;/address&gt;</kbd></td>
+								<td>контактные данные автора документа или статьи</td>
+								<td><kbd>block</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;hr&gt;</kbd></td>
+								<td>горизонтальная линия</td>
+								<td><kbd>block</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;pre&gt;&lt;/pre&gt;</kbd></td>
+								<td>выводит текст с пробелами и переносами</td>
+								<td><kbd>block</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;blockquote&gt;&lt;/blockquote&gt;</kbd></td>
+								<td>большая цитата</td>
+								<td><kbd>block</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;ol&gt;&lt;/ol&gt;</kbd></td>
+								<td>упорядоченный нумерованный список</td>
+								<td><kbd>block</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;ul&gt;&lt;/ul&gt;</kbd></td>
+								<td>маркированный список</td>
+								<td><kbd>block</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;li&gt;&lt;/li&gt;</kbd></td>
+								<td>элемент списка</td>
+								<td><kbd>list-item</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;dl&gt;&lt;/dl&gt;</kbd></td>
+								<td>контейнер для термина и его описания</td>
+								<td><kbd>block</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;dt&gt;&lt;/dt&gt;</kbd></td>
+								<td>задаёт термин</td>
+								<td><kbd>block</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;dd&gt;&lt;/dd&gt;</kbd></td>
+								<td>расшифровывает термин</td>
+								<td><kbd>block</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;figure&gt;&lt;/figure&gt;</kbd></td>
+								<td>независимый контейнер для такого контента как изображения, диаграммы и т.п.</td>
+								<td><kbd>block</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;figcaption&gt;&lt;/figcaption&gt;</kbd></td>
+								<td>заголовок для элемента&nbsp;&lt;figure&gt;</td>
+								<td><kbd>block</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;main&gt;&lt;/main&gt;</kbd></td>
+								<td>контейнер для уникального основного содержимого в пределах одной страницы сайта</td>
+								<td><kbd>block</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;div&gt;&lt;/div&gt;</kbd></td>
+								<td>контейнер для разделов html-документа, группирует блочные элементы</td>
+								<td><kbd>block</kbd></td>
+							</tr>
+						</tbody>
+					</table>
+					<table>
+						<caption>Табличные данные</caption>
+						<tbody>
+							<tr>
+								<td><kbd>&lt;table&gt;&lt;/table&gt;</kbd></td>
+								<td>html-таблица</td>
+								<td><kbd>table</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;caption&gt;&lt;/caption&gt;</kbd></td>
+								<td>подпись к таблице</td>
+								<td><kbd>table-caption</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;colgroup&gt;&lt;/colgroup&gt;</kbd></td>
+								<td>контейнер для одного или нескольких &lt;col&gt;</td>
+								<td><kbd>table-column-group</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;col&gt;</kbd></td>
+								<td>выбирает для форматирования столбцы</td>
+								<td><kbd>table-column</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;thead&gt;&lt;/thead&gt;</kbd></td>
+								<td>блок заголовков таблицы</td>
+								<td><kbd>table-header-group</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;tbody&gt;&lt;/tbody&gt;</kbd></td>
+								<td>тело таблицы</td>
+								<td><kbd>table-row-group</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;tfoot&gt;&lt;/tfoot&gt;</kbd></td>
+								<td>нижний колонтитул таблицы</td>
+								<td><kbd>table-footer-group</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;tr&gt;&lt;/tr&gt;</kbd></td>
+								<td>строка таблицы</td>
+								<td><kbd>table-row</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;th&gt;&lt;/th&gt;</kbd></td>
+								<td>заголовок столбца таблицы</td>
+								<td><kbd>table-cell</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;td&gt;&lt;/td&gt;</kbd></td>
+								<td>ячейка таблицы</td>
+								<td><kbd>table-cell</kbd></td>
+							</tr>
+						</tbody>
+					</table>
+					<table>
+						<caption>Интерактивные элементы</caption>
+						<tbody>
+							<tr>
+								<td><kbd>&lt;details&gt;&lt;/details&gt;</kbd></td>
+								<td>контейнер с дополнительными сведениями, который можно открыть или закрыть</td>
+								<td><kbd>block</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;summary&gt;&lt;/summary&gt;</kbd></td>
+								<td>видимый заголовок для элемента&nbsp;&lt;details&gt;</td>
+								<td><kbd>block</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;dialog&gt;&lt;/dialog&gt;</kbd></td>
+								<td>диалоговое окно, инспектор или окно</td>
+								<td><kbd>block</kbd></td>
+							</tr>
+						</tbody>
+					</table>
+					<table>
+						<caption>Скрипты</caption>
+						<tbody>
+							<tr>
+								<td><kbd>&lt;script&gt;&lt;/script&gt;</kbd></td>
+								<td>подключает сценарии к странице</td>
+								<td><kbd>none</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;noscript&gt;&lt;/noscript&gt;</kbd></td>
+								<td>секция, не поддерживающая скрипт</td>
+								<td><kbd>block</kbd></td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;template&gt;&lt;/template&gt;</kbd></td>
+								<td>фрагменты HTML-кода, которые могут быть клонированы и вставлены в документ скриптом
+								</td>
+								<td><kbd>none</kbd>
+								</td>
+							</tr>
+							<tr>
+								<td><kbd>&lt;canvas&gt;&lt;/canvas&gt;</kbd></td>
+								<td>холст-контейнер для динамического отображения изображений</td>
+								<td><kbd>inline-block</kbd></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</li>
+		</ul>
+	</main>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="/scripts.js"></script>
+</body>
+
+</html>
