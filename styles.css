@@ -71,7 +71,7 @@ span {
 	padding: 5px;
 }
 
-.tag-button {
+.open-btn {
 	cursor: pointer;
 	-moz-user-select: none;
 	-ms-user-select: none;
