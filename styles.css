@@ -60,15 +60,18 @@
 
 .materials > li {
 	border: 0.5px solid black;
+	padding: 10px;
 }
 
 .materials div {
 	background-color: #ffffff;
+	margin-top: 20px;
 }
 
 span {
 	font-size: 20px;
 	padding: 5px;
+	margin-bottom: 10px;
 }
 
 .open-btn {
