@@ -302,7 +302,332 @@ HTML расшифровывается как «Hypertext Markup Language», то
 	<li>
 		<span class="open-btn">+ Tags part 2</span>
 		<div class="tags disabled">
-			Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam blanditiis atque commodi similique, repudiandae exercitationem dolorum nemo molestias praesentium cumque! Explicabo, porro illo. Cum molestiae iusto minus aliquid qui odio.
+			<table>
+				<caption>Встроенное содержимое</caption>
+				<tbody>
+					<tr>
+						<td><kbd>&lt;picture&gt;&lt;/pictire&gt;</kbd></td>
+						<td>контейнер для одного <kbd>&lt;img&gt;</kbd> и ноль или больше <kbd>&lt;source&gt;</kbd></td>
+						<td><kbd>inline</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;source&gt;</kbd></td>
+						<td>местоположение и тип альтернативных медиаресурсов для элементов
+							<kbd>&lt;picture&gt;</kbd>,<kbd>&lt;video&gt;</kbd>, <kbd>&lt;audio&gt;</kbd></td>
+						<td><kbd>none</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;img&gt;</kbd></td>
+						<td>html-изображения</td>
+						<td><kbd>inline</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;iframe&gt;&lt;/iframe&gt;</kbd></td>
+						<td>создаёт встроенный фрейм</td>
+						<td><kbd>block</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;embed&gt;</kbd></td>
+						<td>встраивает внешний интерактивный контент или плагин</td>
+						<td><kbd>inline-block</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;object&gt;&lt;/object&gt;</kbd></td>
+						<td>контейнер для встраивания мультимедиа</td>
+						<td><kbd>inline-block</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;param&gt;</kbd></td>
+						<td>задаёт параметры для плагинов, встраиваемых с помощью элемента &lt;object&gt;</td>
+						<td><kbd>none</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;audio&gt;&lt;/audio&gt;</kbd></td>
+						<td>добавляет аудио-файлы</td>
+						<td><kbd>inline-block</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;video&gt;&lt;/video&gt;</kbd></td>
+						<td>добавляет видео-файлы</td>
+						<td><kbd>inline-block</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;track&gt;</kbd></td>
+						<td>субтитры для элементов &lt;audio&gt;&nbsp;и&nbsp;&lt;video&gt;</td>
+						<td><kbd>none</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;map&gt;&lt;/map&gt;</kbd></td>
+						<td>активные области на карте-изображении</td>
+						<td><kbd>inline</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;area&gt;</kbd></td>
+						<td>гиперссылка с текстом или активная область внутри карты-изображения</td>
+						<td><kbd>inline</kbd></td>
+					</tr>
+				</tbody>
+			</table>
+			<table>
+				<caption>Семантика текста</caption>
+				<tbody>
+					<tr>
+						<td><kbd>&lt;a&gt;&lt;/a&gt;</kbd></td>
+						<td>гиперссылка</td>
+						<td><kbd>inline</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;em&gt;&lt;/em&gt;</kbd></td>
+						<td>выделяет важные фрагменты текста курсивом</td>
+						<td><kbd>inline</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;strong&gt;&lt;/strong&gt;</kbd></td>
+						<td>выделяет полужирным важный текст</td>
+						<td><kbd>inline</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;small&gt;&lt;/small&gt;</kbd></td>
+						<td>отображает текст шрифтом меньшего размера</td>
+						<td><kbd>inline</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;s&gt;&lt;/s&gt;</kbd></td>
+						<td>перечёркивает неактуальный текст</td>
+						<td><kbd>inline</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;cite&gt;&lt;/cite&gt;</kbd></td>
+						<td>источник цитирования</td>
+						<td><kbd>inline</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;q&gt;&lt;/q&gt;</kbd></td>
+						<td>краткая цитата</td>
+						<td><kbd>inline</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;dfn&gt;&lt;/dfn&gt;</kbd></td>
+						<td>выделяет термин курсивом</td>
+						<td><kbd>inline</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;abbr&gt;&lt;/abbr&gt;</kbd></td>
+						<td>аббревиатура или акроним</td>
+						<td><kbd>none</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;ruby&gt;&lt;/ruby&gt;</kbd></td>
+						<td>контейнер для&nbsp;Восточно-Азиатских символов и их расшифровки</td>
+						<td><kbd>inline</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;rb&gt;&lt;/rb&gt;</kbd></td>
+						<td>обертка для аннотации
+						</td>
+						<td><kbd>inline</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;rp&gt;&lt;/rp&gt;</kbd></td>
+						<td>тег для скобок вокруг символов</td>
+						<td><kbd>none</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;rt&gt;&lt;/rt&gt;</kbd></td>
+						<td>расшифровка символов</td>
+						<td><kbd>block</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;rtc&gt;&lt;/rtc&gt;</kbd></td>
+						<td>обертка для дополнительной аннотации
+						</td>
+						<td><kbd>inline</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;data&gt;&lt;/data&gt;</kbd></td>
+						<td>связывает содержимое с машиночитаемым переводом
+						</td>
+						<td><kbd>inline</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;time&gt;&lt;/time&gt;</kbd></td>
+						<td>дата / время документа или статьи</td>
+						<td><kbd>inline</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;code&gt;&lt;/code&gt;</kbd></td>
+						<td>фрагмент программного кода</td>
+						<td><kbd>inline</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;var&gt;&lt;/var&gt;</kbd></td>
+						<td>выделяет переменные из программ</td>
+						<td><kbd>inline</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;samp&gt;&lt;/samp&gt;</kbd></td>
+						<td>результат выполнения сценария</td>
+						<td><kbd>inline</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;kbd&gt;&lt;/kbd&gt;</kbd></td>
+						<td>текст, вводимый пользователем с клавиатуры</td>
+						<td><kbd>inline</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;sub&gt;&lt;/sub&gt;</kbd></td>
+						<td>подстрочное написание символов</td>
+						<td><kbd>inline</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;sup&gt;&lt;/sup&gt;</kbd></td>
+						<td>надстрочное написание символов</td>
+						<td><kbd>inline</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;i&gt;&lt;/i&gt;</kbd></td>
+						<td>выделяет текст курсивом без акцента</td>
+						<td><kbd>inline</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;b&gt;&lt;/b&gt;</kbd></td>
+						<td>задает полужирное начертание отрывка текста, без дополнительного акцента</td>
+						<td><kbd>inline</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;u&gt;&lt;/u&gt;</kbd></td>
+						<td>выделяет отрывок текста подчёркиванием, без дополнительного акцента</td>
+						<td><kbd>inline</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;mark&gt;&lt;/mark&gt;</kbd></td>
+						<td>выделяет фрагменты текста желтым фоном</td>
+						<td><kbd>inline</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;bdi&gt;&lt;/bdi&gt;</kbd></td>
+						<td>изолирует текст, читаемый справа налево</td>
+						<td><kbd>inline</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;bdo&gt;&lt;/bdo&gt;</kbd></td>
+						<td>задаёт направление написания текста</td>
+						<td><kbd>inline</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;span&gt;&lt;/span&gt;</kbd></td>
+						<td>контейнер для строчных элементов</td>
+						<td><kbd>inline</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;br&gt;</kbd></td>
+						<td>перенос текста на новую строку</td>
+						<td><kbd>none</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;wbr&gt;</kbd></td>
+						<td>возможное место разрыва длинной строки</td>
+						<td><kbd>none</kbd></td>
+					</tr>
+				</tbody>
+			</table>
+			<table>
+				<caption>Правки в тексте</caption>
+				<tbody>
+					<tr>
+						<td><kbd>&lt;del&gt;&lt;/del&gt;</kbd></td>
+						<td>перечёркивает текст, помечая как удаленный</td>
+						<td><kbd>inline</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;ins&gt;&lt;/ins&gt;</kbd></td>
+						<td>подчёркивает изменения в тексте</td>
+						<td><kbd>inline</kbd></td>
+					</tr>
+				</tbody>
+			</table>
+			<table>
+				<caption>Формы
+				</caption>
+				<tbody>
+					<tr>
+						<td><kbd>&lt;form&gt;&lt;/form&gt;</kbd></td>
+						<td>html-форма
+						</td>
+						<td><kbd>block</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;label&gt;&lt;/label&gt;</kbd></td>
+						<td>текстовая метка для элемента&nbsp;&lt;input&gt;
+						</td>
+						<td><kbd>inline</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;input&gt;</kbd></td>
+						<td>многофункциональные поля формы
+						</td>
+						<td><kbd>inline-block</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;button&gt;&lt;/button&gt;</kbd></td>
+						<td>интерактивная кнопка</td>
+						<td><kbd>inline-block</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;select&gt;&lt;/select&gt;</kbd></td>
+						<td>элемент управления с выбором значений из предложенных вариантов &lt;option&gt;
+						</td>
+						<td><kbd>inline-block</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;datalist&gt;&lt;/datalist&gt;</kbd></td>
+						<td>контейнер для выпадающего списка элемента&nbsp;&lt;input&gt; с &lt;option&gt;-значениями
+						</td>
+						<td><kbd>none</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;optgroup&gt;&lt;/optgroup&gt;</kbd></td>
+						<td>контейнер с заголовком для группы элементов&nbsp;&lt;option&gt;</td>
+						<td><kbd>block</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;option&gt;&lt;/option&gt;</kbd></td>
+						<td>вариант (опция) в раскрывающемся списке</td>
+						<td><kbd>block</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;textarea&gt;</kbd></td>
+						<td>многострочное поле формы
+						</td>
+						<td><kbd>inline-block</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;output&gt;&lt;/output&gt;</kbd></td>
+						<td>поле для вывода результата вычисления</td>
+						<td><kbd>inline</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;progress&gt;&lt;/progress&gt;</kbd></td>
+						<td>индикатор выполнения задачи</td>
+						<td><kbd>inline-block</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;meter&gt;&lt;/meter&gt;</kbd></td>
+						<td>индикатор измерения в заданном диапазоне</td>
+						<td><kbd>inline-block</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;fieldset&gt;&lt;/fieldset&gt;</kbd></td>
+						<td>группирует связанные элементы в форме</td>
+						<td><kbd>block</kbd></td>
+					</tr>
+					<tr>
+						<td><kbd>&lt;legend&gt;&lt;/legend&gt;</kbd></td>
+						<td>заголовок элементов формы, сгруппированных с помощью &lt;fieldset&gt;</td>
+						<td><kbd>block</kbd></td>
+					</tr>
+				</tbody>
+			</table>
 		</div>
 	</li>
 </ul>
